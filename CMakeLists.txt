@@ -29,5 +29,5 @@ if (JSON11_BUILD_TESTS)
 endif()
 
 install(TARGETS json11 DESTINATION lib)
-install(FILES "${CMAKE_SOURCE_DIR}/json11.hpp" DESTINATION include)
+install(FILES "${CMAKE_SOURCE_DIR}/json11.hpp" DESTINATION include/json11)
 install(FILES "${CMAKE_BINARY_DIR}/json11.pc" DESTINATION lib/pkgconfig)
