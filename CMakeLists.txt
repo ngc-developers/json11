@@ -8,7 +8,6 @@ option(JSON11_ENABLE_DR1467_CANARY "Enable canary test for DR 1467" OFF)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_INSTALL_PREFIX /usr)
 
 add_library(json11 json11.cpp)
 target_include_directories(json11 PUBLIC ${CMAKE_SOURCE_DIR})
